@@ -2,7 +2,7 @@ FROM        node:7.9.0-alpine
 
 MAINTAINER  Mario Álvarez <ahoy@m4grio.me>
 
-ENV         ENDURO_VERSION 1.4.16
+ENV         ENDURO_VERSION 1.4.45
 
 RUN         \
             set -xe ;\
