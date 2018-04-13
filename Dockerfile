@@ -10,9 +10,7 @@ RUN         \
             
 RUN         \
             set -xe ;\
-            npm install -g enduro@$ENDURO_VERSION ;\
-            git clone https://github.com/gaozheyuan13/cold-purse.git ;\
-            cd cold-purse 
+            npm install -g enduro@$ENDURO_VERSION 
             
 EXPOSE      3000
 EXPOSE      5000
